@@ -1,0 +1,121 @@
+body {
+    background: url(./assets/images/background.jpg) 20% 20% no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.header {
+    padding-left: 16px;
+    padding-right: 30px;
+    width: 1600px;
+    max-width: 100%;  
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Courgette', cursive;
+    font-size: 32px;
+    text-shadow: 4px 2px 4px rgb(109, 107, 107);
+}
+
+.log-out-button {
+    margin-top: 30px;
+    width: 352px;
+    height: 32px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.log-out-button:hover {
+    color: rgb(164, 219, 255);
+    transition: color .1s linear;
+    cursor: pointer;
+}
+
+.container {
+    font-size: 24px;
+    font-family: 'Courgette', cursive;
+    height: 840px;
+    width: 1600px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 16px 16px 16px;
+    box-shadow: inset 0 0 1000px rgb(224, 223, 223);
+}
+
+.search-block {
+    padding-bottom: 10px;
+    padding-right: 14px;
+    font-size: 20px;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-input {
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    height: 32px;
+    width: 50%;
+}
+
+.header-button {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    width: 352px;
+    height: 32px;
+    margin-left: 12px;
+}
+
+.header-button:hover {
+    color: rgb(164, 219, 255);
+    transition: color .1s linear;
+    cursor: pointer;
+}
+
+.deleteButton {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    width: 100%;
+    height: 32px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    color: rgb(164, 219, 255);
+    transition: color .1s linear;
+    cursor: pointer;
+}
+
+
+.contacts-grid {
+    padding: 8px 12px;
+    display: grid;
+    width: 100%;
+    height: 94%;
+    border: 1px rgb(172, 172, 172) solid;
+    align-items: center;
+    grid-template-rows: repeat(13, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 0.9fr;
+    grid-gap: 4px;
+}
+
+.contactsUnderline {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
